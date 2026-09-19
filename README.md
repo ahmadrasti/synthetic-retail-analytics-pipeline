@@ -165,4 +165,4 @@ A deterministic run over the repository's synthetic CSV inputs writes the follow
 | `sales_by_location_product.csv` | Location × product category | Inspect category-level sales patterns |
 | `inventory_by_location_product.csv` | Location × product category | Review inventory and waste KPIs |
 | `management_summary.txt` | Report date | Read a concise synthetic-data management summary |
-All values are generated exclusively from the repository's deterministic synthetic dataset and are illustrative only.
+
