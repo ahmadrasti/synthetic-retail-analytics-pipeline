@@ -156,3 +156,13 @@ Ahmad Rasti Barzoki
 
 - GitHub: https://github.com/ahmadrasti
 - LinkedIn: https://linkedin.com/in/ahmad-rasti-barzoki
+## Example Output
+A deterministic run over the repository's synthetic CSV inputs writes the following analysis-ready artifacts:
+| Output file | Granularity | Example use |
+|---|---|---|
+| `daily_overall.csv` | Report date | Review overall sales and inventory KPIs |
+| `sales_by_location_customer.csv` | Location × customer segment | Compare segment performance by location |
+| `sales_by_location_product.csv` | Location × product category | Inspect category-level sales patterns |
+| `inventory_by_location_product.csv` | Location × product category | Review inventory and waste KPIs |
+| `management_summary.txt` | Report date | Read a concise synthetic-data management summary |
+All values are generated exclusively from the repository's deterministic synthetic dataset and are illustrative only.
